@@ -1,0 +1,137 @@
+body {
+    background-image: url("../img/hojas.jpg");
+}
+
+.contenedor {
+    background-color: white;
+    margin: 1rem 10rem 1rem;
+}
+
+.titulo {
+    display: inline-block;
+    background-color: green;
+    color: white;
+    font-size: 40px;
+    margin: 1rem;
+    text-align: center;
+    padding: 0.5rem 4rem;
+    font-weight: 700;
+}
+
+.slider {
+    margin: 1rem 10rem 1rem 1rem;
+}
+
+.imagenSlide1 {
+    background-image: url("../img/hojas.jpg");
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+}
+
+.imagenSlide2 {
+    background-image: url("../img/cielo.jpg");
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+}
+
+.imagenSlide3 {
+    background-image: url("../img/caracol.jpg");
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+}
+
+.card-header {
+    color: rgb(40, 97, 40);
+    font-size: 30px;
+    font-weight: 750;
+}
+
+.card-title {
+    color: grey;
+    font-size: 15px;
+}
+
+.titulo_derecha {
+    text-align: center;
+    font-size: 15px;
+    color: black;
+}
+
+.parrafo_derecha {
+    font-size: 14px;
+    color: black;
+}
+
+.theme {
+    margin-top: 200px;
+    width: 10px;
+    height: 30px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.color-rojo {
+    background-color: red;
+    padding: 10px;
+    border: 2px solid white;
+}
+
+.color-verde {
+    background-color: green;
+    padding: 10px;
+    border: 2px solid white;
+}
+
+.color-azul {
+    background-color: cyan;
+    padding: 10px;
+    border: 2px solid white;
+}
+
+.contenedor_footer {
+    background-color: gray;
+    margin: 1rem 10rem 1rem;
+    margin-top: 20px;
+    bottom: 0px;
+}
+
+.enlace_footer {
+    color: white;
+}
+
+.bg-green {
+    background-color: green;
+}
+
+.text-green {
+    color: green;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.text-red {
+    color: red;
+}
+
+.bg-cyan {
+    background-color: cyan;
+    color: black!important;
+}
+
+.text-cyan {
+    color: cyan;
+}
+
+footer {
+    height: 3rem;
+    margin: 1rem 10rem 0rem;
+    background-color: black;
+    opacity: 0.3;
+}
